@@ -67,11 +67,11 @@ class ScoreAnalyzer {
 public class Main {
     public static void main(String[] args) {
         List<Student> students = new ArrayList<>();
-        students.add(new Student("Nani", 85));
-        students.add(new Student("Kishu", 72));
-        students.add(new Student("Mani", 91));
-        students.add(new Student("LiKhi", 65));
-        students.add(new Student("nitin", 78));
+        students.add(new Student("Nani", 95));
+        students.add(new Student("Kishu", 67));
+        students.add(new Student("Mani", 82));
+        students.add(new Student("LiKhi", 55));
+        students.add(new Student("nitin", 73));
 
         ScoreAnalyzer analyzer = new ScoreAnalyzer(students);
         analyzer.analyzeScores();
