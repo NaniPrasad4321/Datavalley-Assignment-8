@@ -63,11 +63,11 @@ class BookAnalyzer {
 public class Main {
     public static void main(String[] args) {
         List<Book> books = new ArrayList<>();
-        books.add(new Book("Hamlet", 3));
-        books.add(new Book("The Tempest", 7));
-        books.add(new Book("Romeo & Juliet", 9));
-        books.add(new Book("Macbeth", 5));
-        books.add(new Book("The comedy of Errors", 2));
+        books.add(new Book("Hamlet", 4));
+        books.add(new Book("The Tempest", 6));
+        books.add(new Book("Romeo & Juliet", 8));
+        books.add(new Book("Macbeth", 9));
+        books.add(new Book("The comedy of Errors", 5));
 
         BookAnalyzer analyzer = new BookAnalyzer(books);
         analyzer.analyzeBooks();
