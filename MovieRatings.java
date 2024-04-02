@@ -60,11 +60,11 @@ class MovieAnalyzer {
 public class Main {
     public static void main(String[] args) {
         List<Movie> movies = new ArrayList<>();
-        movies.add(new Movie("FirstMovie", "PG-13", 4.5));
-        movies.add(new Movie("SecondMovie", "PG", 3.8));
-        movies.add(new Movie("ThirdMovie", "R", 4.2));
-        movies.add(new Movie("FourthMovie", "PG-13", 3.9));
-        movies.add(new Movie("FifthMovie", "R", 4.1));
+        movies.add(new Movie("FirstMovie", "PG-13", 4.8));
+        movies.add(new Movie("SecondMovie", "PG", 2.7));
+        movies.add(new Movie("ThirdMovie", "R", 3.8));
+        movies.add(new Movie("FourthMovie", "PG-13", 4.9));
+        movies.add(new Movie("FifthMovie", "R", 2.4));
         
         MovieAnalyzer analyzer = new MovieAnalyzer(movies);
         analyzer.analyzeMovies();
